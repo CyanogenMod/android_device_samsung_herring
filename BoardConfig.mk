@@ -8,7 +8,7 @@ TARGET_BOARD_PLATFORM := unknown
 TARGET_CPU_ABI := armeabi
 TARGET_BOOTLOADER_BOARD_NAME := herring
 
-BOARD_KERNEL_CMDLINE := console=ttyFIQ0 no_console_suspend androidboot.serialno=3133011413E900EC androidboot.bootloader=I9020XXJK1 androidboot.baseband=I9020XXJK8 androidboot.carrier=TMB gain_code=0 s3cfb.bootloaderfb=0x34a00000
+BOARD_KERNEL_CMDLINE := console=ttyFIQ0 no_console_suspend
 BOARD_KERNEL_BASE := 0x30000000
 BOARD_PAGE_SIZE := 0x00001000
 
